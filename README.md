@@ -1,10 +1,12 @@
-# RP2040_app_template
+# picosystem_template
 
 ## Clone and setup
 
 ### Clone repository
 
-`git clone <name of repository>`
+```
+git clone <name of repository>
+```
 
 ### Initialize submodules
 
@@ -54,7 +56,7 @@ cd -
 - python3/now 3.9.4-1build1 amd64
 - gcc/now 4:11.2.0-1ubuntu1 amd64
 
-### Ubuntu:22.04 - to be confirmed
+### Ubuntu:22.04 - to be verified
 - build-essential/now 12.9ubuntu2 amd64
 - cmake/now 3.22.1-1ubuntu1 amd64
 - gcc-arm-none-eabi/now 15:10.3-2021.07-4 amd64
