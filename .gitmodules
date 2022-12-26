@@ -10,3 +10,6 @@
 [submodule "external/pico-playground"]
 	path = external/pico-playground
 	url = https://github.com/raspberrypi/pico-playground.git
+[submodule "external/picosystem"]
+	path = external/picosystem
+	url = https://github.com/pimoroni/picosystem.git
