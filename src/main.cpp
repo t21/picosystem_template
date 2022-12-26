@@ -1,7 +1,5 @@
 #include "picosystem.hpp"
 
-using namespace picosystem;
-
 void init() {
 }
 
