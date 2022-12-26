@@ -1,0 +1,39 @@
+{
+    "buildVariant": {
+        "default": "RP2040_board",
+        "description": "Hardware or Unittests",
+        "choices": {
+            "RP2040_board": {
+                "short": "RP2040",
+                "long": "RP2040 board",
+                "settings": {
+                    "PICO_PLATFORM": "rp2040"
+                }
+            },
+            "unittest": {
+                "short": "Unittest",
+                "long": "Unit test",
+                "settings": {
+                    "PICO_PLATFORM": "host"
+                }
+            }
+        }
+    },
+
+    "buildType": {
+        "default": "debug",
+        "description": "Optimization level",
+        "choices": {
+            "debug": {
+                "short": "Debug",
+                "long": "Debug info, limited optimization",
+                "buildType": "Debug"
+            },
+            "release": {
+                "short": "Release",
+                "long": "No debug info, full optimization",
+                "buildType": "Release"
+            }
+        }
+    }
+}
